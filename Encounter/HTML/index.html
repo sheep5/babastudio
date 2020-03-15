@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style/defaultstyle.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<title>Home</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+    		<div id="logo"><img src="images/logo.png"></div>
+        		<div id="login">
+        			<form id="loginbar" name="loginbar" method="post" action="login.php">
+            		Username:
+                	<input type="text" id="membername" name="membername" value="" placeholder="DaBananaGuy" size="12" required>
+                    &nbsp;
+                	Password:
+                	<input type="password" id="memberpassword" name="memberpassword" value="" placeholder="&bull; &bull; &bull; &bull; &bull; &bull; &bull; &bull;" size="12" required>
+                	<button type="submit" form="loginbar" formaction="login.php" formmethod="post" name="loginbutton" class="custombutton">
+                    	<img src="images/loginbutton.png">
+                    </button>
+            	</form>
+        	</div>
+    	</div>
+    	<div id="menu">
+    		<ul>
+        		<li><a class="current" href="index.html">Home</a></li>
+            	<li><a href="profile.html">Profile</a></li>
+            	<li><a href="portfolio.html">Portfolio</a></li>
+            	<li><a href="blogs.html">Blogs</a></li>
+            	<li><a href="contact.html">Contact Me</a></li>
+        	</ul>
+    	</div>
+    	<div id="slider">
+    		<div id="slider-left">
+        		<img src="images/slider-img.jpg" align="left">
+        	</div>
+        	<div id="slider-right">
+        		<span id="greentitle">Welcome</span>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac velit vel velit ornare ullamcorper ac eu erat. Aenean convallis aliquam suscipit. Nunc ac sollicitudin magna, eget venenatis erat. Curabitur commodo leo nec viverra euismod. Nullam eget elementum dolor, egestas cursus neque.</p>
+        	</div>
+    	</div>
+    	<div id="search">
+    		<form id="searchbar" name="searchbar" method="post" action="search.php">
+        		Search:
+            	<input type="text" id="searchterm" name="searchterm" value="" placeholder="WATCH_DOGES" size="13" required>
+            	<button type="submit" form="searchbar" formaction="search.php" formmethod="post" name="searchbutton" class="custombutton">
+                    	<img src="images/searchbutton.png">
+                 </button>
+        	</form>
+    	</div>
+    	<div id="content">
+    		<div id="content-left">
+        		<span class="title">Last Blogs</span>
+            	<br>
+        		<div id="left-top">
+            		<span id="date">13 Jul 2014 12:51 WIB</span>
+            		<br>
+            		<span id="blogtitle">Blog Entry 1</span>
+            		<br>
+            		<img src="images/blogs-img.jpg" id="blog-img" align="left">
+            		<p>Lorem ipsum dolor si amet, consectetur adipiscing elit. Vivamus porttitor at leo eu luctus. Nullam imperdiet interdum enim, suscipit cursus orci dignissim at. Morbi sit amet feugiat quam. Fusce quam sem, eleifend a nunc sed, tincidunt egestas massa. Phasellus vulputate ultrices justo quis accumsan.</p>
+            	</div>
+            	<div id="left-bottom">
+            		<span id="date">13 Jul 2014 12:51 WIB</span>
+            		<br>
+            		<span id="blogtitle">Blog Entry 2</span>
+            		<br>
+            		<img src="images/blogs-img.jpg" id="blog-img" align="left">
+            		<p>Lorem ipsum dolor si amet, consectetur adipiscing elit. Vivamus porttitor at leo eu luctus. Nullam imperdiet interdum enim, suscipit cursus orci dignissim at. Morbi sit amet feugiat quam. Fusce quam sem, eleifend a nunc sed, tincidunt egestas massa. Phasellus vulputate ultrices justo quis accumsan.</p>
+            	</div>
+        	</div>
+        	<div id="content-right">
+            	<span class="title">Last Portfolio</span>
+            	<div id="right-top">
+                	<span id="portfolio-title">Portfolio 1</span>
+                    <br>
+            		<img src="images/portfolio-img.jpg" id="portfolio-img" align="left">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam velit non lorem pretium, id pharetra lacus facilisis.</p>
+                </div>
+                <div id="right-bottom">
+                	<span id="portfolio-title">Portfolio 2</span>
+                    <br>
+                	<img src="images/portfolio-img.jpg" id="portfolio-img" align="left">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam velit non lorem pretium, id pharetra lacus facilisis.</p>
+                </div>
+        	</div>
+    	</div>
+    	<div id="footer">
+        	<br>
+    		<span>Copyright &copy; 2014 Nathanael Hananto Putro. All Rights Reserved.</span>
+    	</div>
+	</div>
+</body>
+</html>

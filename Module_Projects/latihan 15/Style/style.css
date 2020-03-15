@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#006C51;
+}
+#wrapper {
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#5FD2B5;
+	box-shadow:10px 10px 10px #666;
+	border-top-left-radius:20px;
+	-moz-border-top-left-radius:20px;
+	-webkit-border-left-radius:20px;
+	border-top-right-radius:20px;
+	-moz-border-top-right-radius:20px;
+	-webkit-border-right-radius:20px;
+	border-bottom-left-radius:20px;
+	-moz-border-bottom-left-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	-moz-border-bottom-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+}
+#wrapper #header {
+	height:115px;
+	background-color:#35D2AB;
+	padding-left:10px;
+	padding-top:35px;
+	border-top-left-radius:20px;
+	-moz-border-top-left-radius:20px;
+	-webkit-border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	-moz-border-top-right-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	
+}
+#wrapper #header h1 {
+	margin-top:0px;
+	margin-bottom:0px;
+	color:#666;
+	font-family:"Comic Sans MS", "Lucida Sans Typewriter";
+	font-size:36px;
+	font-weight:bold;
+}
+#wrapper #header h2 {
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family:"Comic Sans MS", "Lucida Sans Typewriter";
+	font-size:24px;
+	font-weight:bold;
+	color:#666;
+}
+#wrapper #menu {
+	height:50px;
+	background-color:#00A67C;
+}
+#wrapper #menu ul {
+	margin:0px;
+	list-style-type:none;
+	padding:0px;
+}
+#wrapper #menu ul li {
+	float:left;
+	width:150px;
+	font-size:24px;
+	font-family:"Comic Sans MS", "Lucida Sans Typewriter";
+	color:#FFF;
+	text-align:center;
+	line-height:45px;
+	height:50px;
+	font-weight:bold;
+}
+#wrapper #menu ul li a {
+	text-decoration:none;
+	width:150px;
+	font-size:24px;
+	font-family:"Comic Sans MS", "Lucida Sans Typewriter";
+	color:#FFF;
+	text-align:center;
+	line-height:45px;
+	height:50px;
+	font-weight:bold;
+	display:block;
+}
+#wrapper #menu ul li a:hover {
+	text-decoration:none;
+	width:150px;
+	font-size:24px;
+	font-family:"Comic Sans MS", "Lucida Sans Typewriter";
+	color:#FFF;
+	text-align:center;
+	line-height:45px;
+	height:50px;
+	font-weight:bold;
+	background-color:#35D2AB;
+	display:block;
+}
+#wrapper #content {
+	min-height:600px;
+	padding:10px;
+}
+#wrapper #content #membersearch #member {
+	width:440px;
+	float:left;
+}
+#wrapper #content #membersearch #search {
+	width:440px;
+	float:left;
+	text-align:right;
+}
+.newsitem {
+	border-style:dashed;
+	padding:5px;
+	margin-bottom;10px;
+	border-color:#0FF;
+	border-width:1px;
+}
+.newsitem .newsdate {
+	font-family:"Comic Sans MS", cursive;
+	font-size:10px;
+	color:#00F;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+.newsitem .newstitle {
+	font-family:"Comic Sans MS", cursive;
+	font-size:20px;
+	font-weight:bold;
+	color:#30F;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+.newsitem .newsparagraph {
+	font-family:"Comic Sans MS", cursive;
+	font-size:14px;
+	text-align:justify;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+.newsitem .newsparagraph img {
+	float:left;
+	margin-right:5px;
+	width:100px;
+	height:60px;
+}
+.newsitem a {
+	clear:both;
+	margin-top:20px;
+	text-decoration:none;
+	font size:18px;
+	font-weight:bold;
+	color:#60F;	
+}
+.newsitem a:hover {
+	clear:both;
+	margin-top:20px;
+	text-decoration:none;
+	font size:18px;
+	font-weight:bold;
+	color:#FF0;	
+}
+.newsdate {
+	font-size:10px;
+	font-family:"Comic Sans MS", cursive;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+.newstitle {
+	font-size:20px;
+	font-family:"Comic Sans MS", cursive;
+	font-weight:bold;
+	margin-top:0px;
+	margin-bottom:10px;
+	color:#00F;
+}
+.newsdetail {
+	font-size:14px;
+	font-family:"Comic Sans MS", cursive;
+	text-align:justify;
+	
+}
+.newsdetail img {
+	float:left;
+	margin-right:10px;
+	width:200px;
+	height:auto;
+}
+#wrapper #footer {
+	height:35px;
+	background-color:#1F7C65;
+	text-align:center;
+	padding-top:15px;
+	border-bottom-left-radius:20px;
+	-moz-border-left-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	-moz-border-bottom-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+}
+.commenttextfield {
+	width:300px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:14px;
+}
+.commenttextarea {
+	width:300px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:14px;
+}
+.submitcommentbutton {
+	border-style:ridge;
+	border-width:3.5px;
+	width:50px;
+	height12.5px;
+	border-radius:20px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#FFCA73;
+	color:#B96D7B;
+}
+.clearfloat {
+	clear:both;
+}

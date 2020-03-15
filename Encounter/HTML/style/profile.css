@@ -1,0 +1,10 @@
+/* All IDs in content */
+#content-top {height:310px; margin-bottom:30px;}
+#content #content-top #top-left {float:left;}
+#content #content-top #top-left img {margin-right:10px;}
+#content #content-top #top-right {float:left; width:350px; margin-top:75px;}
+#content #content-bottom {font-size:14px; margin-bottom:10px;}
+
+/* All modified/new classes */
+.title {font-size:24px;}
+.subtitle {font-size:24px; font-family:Minecraftia;}

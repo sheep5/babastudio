@@ -1,0 +1,83 @@
+/* Basic CSS */
+/* Don't forget to link to every page */
+
+/* Initial settings */
+* {padding:0px; margin:0px;}
+body {background-color:#000000;}
+#wrapper {margin:0 auto; width:935px; background-color:#737373;}
+* p {font-family:Minecraftia;}
+* a {text-decoration:none;}
+
+/* All IDs in header */
+#header {background-color:#000; height:125px; padding:0px 20px;}
+#logo {float:left; overflow:hidden;}
+#login {color:#35b256; font-family:Pixelmix; float:right; padding-top:90px; font-size:12pt; overflow:hidden}
+
+/* All IDs in menu */
+#menu {background-color:#35b256; height:50px;}
+#menu ul {list-style:none; width:935px; overflow:hidden;}
+#menu ul li {float:left; width:20%; line-height:50px; text-align:center;}
+#menu ul li a {text-decoration:none; color:#000000; font-family:Pixelmix-bold;}
+#menu ul li a:hover {color:#35b256; background-color:#000000; display:block;}
+#menu ul li a.current {color:#35b256; background-color:#000000; display:block;}
+
+/* All IDs in search */
+#search {float:right; background-color:#000000; color:#35b256; font-size:12px; height:30px; width:217px; text-align:center; font-family:Minecraftia;}
+#search #searchbar {margin-top:4.5px;}
+
+/* Basic IDs in content */
+#content {color:#f3f3f3; margin-top:30px; padding:0px 20px;}
+
+/* All IDs in footer */
+#footer {height:60px; background-color:#35b256; padding-left:20px; clear:both;}
+#footer span {text-align:left; font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+
+/* All classes */
+.custombutton {background-color:transparent; border:none;}
+.title {font-family:Fipps; font-size:20px;}
+
+/* All custom fonts */
+@font-face {
+  font-family: 'Pixelmix';
+  src: url('../fonts/pixelmix.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/pixelmix.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/pixelmix.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/pixelmix.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/pixelmix.svg#1d4c6b42cbe0f8c272c3411af967fa6a') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+@font-face {
+  font-family: 'Pixelmix-bold';
+  src: url('../fonts/pixelmix_bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/pixelmix_bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/pixelmix_bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/pixelmix_bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/pixelmix_bold.svg#cb8f979008ac888c2a058c1b032d1c31') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('../fonts/Minecraftia.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Minecraftia.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Minecraftia.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Minecraftia.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Minecraftia.svg#c77cc0b51906a52dce748b6f62caea84') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+@font-face {
+  font-family: 'Fipps';
+  src: url('../fonts/Fipps-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Fipps-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Fipps-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Fipps-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Fipps-Regular.svg#886537f073883bb4d58e1efa04df6141') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}

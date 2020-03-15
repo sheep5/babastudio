@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style/defaultstyle.css">
+<link rel="stylesheet" type="text/css" href="style/portfolio.css">
+<title>Portfolio</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+    		<div id="logo"><img src="images/logo.png"></div>
+        	<div id="login">
+        		<form id="loginbar" name="loginbar" method="post" action="login.php">
+            		Username:
+                	<input type="text" id="membername" name="membername" value="" placeholder="DaBananaGuy" size="12" required>
+                    &nbsp;
+                	Password:
+                	<input type="password" id="memberpassword" name="memberpassword" value="" placeholder="&bull; &bull; &bull; &bull; &bull; &bull; &bull; &bull;" size="12" required>
+                	<button type="submit" form="loginbar" formaction="login.php" formmethod="post" name="loginbutton" class="custombutton">
+                    	<img src="images/loginbutton.png">
+                    </button>
+            	</form>
+        	</div>
+    	</div>
+    	<div id="menu">
+    		<ul>
+        		<li><a href="index.html">Home</a></li>
+            	<li><a href="profile.html">Profile</a></li>
+            	<li><a class="current" href="portfolio.html">Portfolio</a></li>
+            	<li><a href="blogs.html">Blogs</a></li>
+            	<li><a href="contact.html">Contact Me</a></li>
+        	</ul>
+    	</div>
+    	<div id="search">
+    		<form id="searchbar" name="searchbar" method="post" action="search.php">
+        		Search:
+            	<input type="text" id="searchterm" name="searchterm" value="" placeholder="WATCH_DOGES" size="13" required>
+            	<button type="submit" form="searchbar" formaction="search.php" formmethod="post" name="searchbutton" class="custombutton">
+                    	<img src="images/searchbutton.png">
+                 </button>
+        	</form>
+    	</div>
+    	<div id="content">
+        	<span class="title">Portfolio</span>
+   	 		<div id="content-top">
+            	<ul>
+                	<li>
+                    	<img src="images/big-portfolio-img.jpg">
+                        <br>
+                        <span id="portfolio-desc">Portfolio 1</span>
+                    </li>
+                    <li>
+                    	<img src="images/big-portfolio-img.jpg">
+                        <br>
+                        <span id="portfolio-desc">Portfolio 2</span>
+                    </li>
+                    <li>
+                    	<img src="images/big-portfolio-img.jpg">
+                        <br>
+                        <span id="portfolio-desc">Portfolio 3</span>
+                    </li>
+                </ul>
+   	    	</div>
+    		<div id="content-bottom">
+            	<ul>
+                	<li>
+                    	<img src="images/big-portfolio-img.jpg">
+                        <br>
+                        <span id="portfolio-desc">Portfolio 4</span>
+                    </li>
+                    <li>
+                    	<img src="images/big-portfolio-img.jpg">
+                        <br>
+                        <span id="portfolio-desc">Portfolio 5</span>
+                    </li>
+                    <li>
+                    	<img src="images/big-portfolio-img.jpg">
+                        <br>
+                        <span id="portfolio-desc">Portfolio 6</span>
+                    </li>
+                </ul>
+    	    </div>
+            <br>
+            <a href="#" class="active">1</a> &nbsp; <a href="#">2</a> &nbsp; <a href="#">3</a>
+   	 	</div>
+   	 	<div id="footer">
+        	<br>
+    		<span>Copyright &copy; 2014 Nathanael Hananto Putro. All Rights Reserved.</span>
+    	</div>
+    </div>
+</body>
+</html>
